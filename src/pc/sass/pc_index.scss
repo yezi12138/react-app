@@ -1,0 +1,197 @@
+@import './header.scss';
+@import './star.scss';
+@import '../../../static/nomarlize.css';
+section{
+  margin-bottom:50px;
+}
+
+.hot-section {
+  background-color:#fff;
+  text-align:center;
+  .index-hot{
+    width:950px;
+    margin:0 auto;
+    text-align:left;
+    .index-section{
+      font-size:16px;
+      color:#072;
+      margin:0 0 10px 0;
+      line-height: 150%;
+    }
+    .index-hot-content{
+      margin-bottom:20px;
+      .left-content{
+        display:inline-block;
+        width:700px;
+        box-sizing:border-box;
+        padding-right:20px;
+        ul{
+          width:100%;
+          .article-item{
+            display:inline-block;
+            width:100%;
+            margin-bottom:20px;
+            &:last-child{
+              margin-bottom:0;
+            }
+            .avatar{
+              display:inline-block;
+              width:50px;
+              height:50px;
+              margin: 0 10px 0 0;
+              font-size:14px;
+              vertical-align:top; 
+            }
+            .hot-article{
+              display:inline-block;
+              width:620px;
+              overflow:hidden;
+              font-size:14px;
+              padding-bottom:10px;
+              border-bottom:1px solid #e5e5e5;
+              cursor:pointer;
+              .article-title{
+                color:#555;
+                margin-bottom:8px;
+                &:hover{
+                  color:#e85205;
+                  text-decoration:underline;
+                }
+              }
+              .preview-wrap{
+                background-color:#f9f9f9;
+                padding: 16px 20px;
+                margin-bottom:10px;
+                .preview{
+                  line-height:16px;
+                  overflow : hidden;
+                  text-overflow: ellipsis;
+                  display: -webkit-box;
+                  -webkit-line-clamp: 3;
+                  -webkit-box-orient: vertical;
+                }
+              }
+              .come-from{
+                font-size:14px;
+                color:#aaa;
+                cursor:default;
+              }
+            }
+          }
+        }
+      }
+      .right-content{
+        float:right;
+        width:250px;
+        cursor:pointer;
+        ul{
+          li{
+            font-size:14px;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            color:#669;
+            margin:7px 0;
+            &:hover{
+              color:#e85205;
+              text-decoration:underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.section{
+  padding: 40px 0;
+  background-color:#f3f3f3;
+  text-align:center;
+  .section-content{
+    width:950px;
+    margin:0 auto;
+    text-align:left;
+    .section-left{
+      display:inline-block;
+      vertical-align:top;
+      width:100px;
+      margin-right:20px;
+      .index-section{
+        font-size:24px;
+        color:#494949;
+        margin:0 0 10px 0;
+        line-height: 150%;
+      }
+    }
+    .section-right{
+      display:inline-block;
+      min-height:200px;
+      width:830px;
+      cursor:pointer;
+      .section-right-title{
+        font-size:14px;
+        margin-bottom:15px;
+      }
+      .section-group{
+        width:100%;
+        font-size:0;
+        &:last-child{
+          margin-right:0;
+        }
+        .section-item{
+          display:inline-block;
+          vertical-align:top;
+          width:100px;
+          margin-right:60px;
+          overflow:hidden;
+          font-size:14px;
+          text-align:center;
+          margin-bottom:20px;
+          img{
+            display:block;
+            width:100%;
+          }
+          .section-item-name{
+            color:#333;
+            margin: 10px 0;
+            &:hover{
+              color:#e85205;
+              text-decoration:underline;
+            }
+          }
+          .section-item-author{
+            color:#999;
+            cursor:default;
+          }
+        }
+      }
+    }
+  }
+}
+
+.movies-section{
+  background-color:#fff;
+  button{
+    margin-top:8px;
+  }
+}
+
+.register-section{
+  .register{
+    float:right;
+    width:270px;
+    .ant-form{
+      .ant-form-item{
+        margin-bottom:10px;
+      }
+    }
+    input{
+      vertical-align:middle;
+      margin-right:10px;
+    }
+    canvas{
+      display:inline-block;
+      vertical-align:middle;
+    }
+  }
+}
